@@ -53,6 +53,7 @@ nav a {
 }
 
 .logo-name {
+
     text-align: center;
 }
 /* Home */
@@ -61,11 +62,6 @@ nav a {
     flex-direction: column;
     background-color: aquamarine;
     align-items: center;
-}
-
-section {
-    max-width: 100%;
-    margin: auto;
 }
 
 .the-museum img {
@@ -97,7 +93,6 @@ section {
 }
 
 .the-museum2 {
-    padding: 5%;
     text-align: center;
 }
 
@@ -107,6 +102,11 @@ section {
 
 .skeleton1, .skeleton2 {
     margin: 40px;
+}
+
+/* Footer*/
+footer {
+    text-align: center;
 }
 
 @media (min-width : 768px) {
@@ -137,6 +137,10 @@ section {
         flex-direction: row;
     }
 
+    .the-museum-info p {
+        text-align: left;
+    }
+
     .the-museum img {
         width: 500px;
         height: 200%;
@@ -144,9 +148,12 @@ section {
 
     .the-museum2 {
         display: flex;
+        justify-content: center;
+    }
+
+    .skeleton1, .skeleton2 {
+        display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        gap: 60px;
     }
 }
 
