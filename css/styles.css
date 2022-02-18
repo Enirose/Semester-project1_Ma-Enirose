@@ -6,6 +6,7 @@ body {
 
 p {
     font-size: 20px;
+    margin: 0px 0px 35px 0px;
 }
 
 .logo {
@@ -71,7 +72,7 @@ nav a {
 }
 
 .the-museum-info p {
-    text-align: center;
+    text-align: left;
     margin: 30px;
 }
 
@@ -81,10 +82,11 @@ nav a {
 
 .cta {
     background-color: #E86826;
-    padding: 10px 40px;
+    padding: 10px 60px;
     color: black;
     font-size: 20px;
     font-weight: 600;
+    box-shadow: 1px 6px 10px black;
 }
 
 .skeleton {
@@ -103,6 +105,25 @@ nav a {
 .skeleton1, .skeleton2 {
     margin: 40px;
 }
+
+/* Exhibition*/
+.exhibition {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 10px 16px 15px black;
+}
+
+.exhibition img {
+    width: 100%;
+}
+
+.exhibition-info {
+    padding: 5%;
+}
+
 
 /* Footer*/
 footer {
@@ -134,16 +155,14 @@ footer {
     /* home */
 
     .the-museum {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 5fr 4fr;
     }
-
-    .the-museum-info p {
-        text-align: left;
-    }
-
+    
     .the-museum img {
-        width: 500px;
-        height: 200%;
+        width: 100%;
+        height: 100%;
+        padding: 0;
     }
 
     .the-museum2 {
@@ -154,6 +173,12 @@ footer {
     .skeleton1, .skeleton2 {
         display: flex;
         flex-direction: column;
+    }
+
+    /*exhibition*/
+    .exhibition {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
     }
 }
 
