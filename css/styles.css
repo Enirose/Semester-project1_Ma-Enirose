@@ -42,7 +42,7 @@ header {
 }
 
 header, .fas {
-    justify-content: space-between;
+
 }
 
 nav {
@@ -80,6 +80,11 @@ nav a {
 
 .the-museum-info {
     text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: #E86826;
 }
 
 .cta {
@@ -164,7 +169,7 @@ footer {
     .the-museum {
         display: grid;
         grid-template-columns: 5fr 4fr;
-        margin: 30px;
+        margin: 50px;
     }
     
     .the-museum img {
