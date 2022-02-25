@@ -8,7 +8,6 @@ p, h3 {
     font-size: 20px;
     margin: 0px 0px 35px 0px;
     line-height: 2;
-    font-weight: 800;
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -166,16 +165,8 @@ h2 {
 
 /*Get involved*/
 
-.get {
-    background-image: url(../Images/learn-2405206_1920.jpg);
-    background-size: cover;
-    object-fit: cover;
-    height: 100%;
-}
-
-.get h1, .get h2 {
-    color: #ffffff;
-    text-align: center;
+.logo-name img {
+    width: 100%;
 }
 
 .get-involved {
@@ -280,6 +271,7 @@ h2 {
 
 .footer h2 {
     font-size: 25px;
+    line-height: 1;
 }
 
 .copyright {
@@ -287,7 +279,8 @@ h2 {
     font-weight: 900;
     font-size: 15px;
     background-color: rgb(225, 225, 225);
-    padding: 20px;
+    color: #E86826;
+    padding: 10px;
 }
 
 @media (min-width : 768px) {
@@ -305,10 +298,6 @@ h2 {
     /*Get Involved*/
     .get-involved {
         margin: 100px;
-    }
-
-    .get h1, .get h2 {
-        padding: 50px;
     }
 
     /*Explore*/
@@ -391,10 +380,6 @@ h2 {
         margin: 100px 200px;
     }
 
-    .get h1, .get h2 {
-        padding: 90px;
-    }
-
     /*Explore*/
     .explore-name h1, .explore-name h2 {
         padding: 65px;
@@ -407,3 +392,9 @@ h2 {
     }
 }
 
+@media (min-width : 2000px) {
+    /*Explore*/
+    .explore-name h1, .explore-name h2 {
+        padding: 120px;
+    }
+}
