@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-p {
+p, h3 {
     font-size: 20px;
     margin: 0px 0px 35px 0px;
     line-height: 2;
@@ -94,7 +94,6 @@ hr {
 
 h2 {
     color: #E86826;
-    margin: 50px;
     line-height: 2;
     font-weight: bolder;
     font-size: 30px;
@@ -103,7 +102,7 @@ h2 {
 /*cta*/
 .cta {
     background: none;
-    padding: 10px 60px;
+    padding: 10px 40px;
     color: black;
     font-size: 20px;
     font-weight: 600;
@@ -250,7 +249,7 @@ h2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -262,23 +261,29 @@ h2 {
 }
 
 /* Footer*/
-footer {
+.footer-info {
+    background-color: #E1E1E1;
+    color: #E86826;
+    width: 100vw;
+    margin: 0px auto;
     text-align: center;
+    font-weight: 900;
+}
+
+.social-media {
+    text-align: center;
+    margin: 30px auto;
+    color: #E86826;
+    display: block;
+}
+
+.social-media a{
+    color: #000000;
+    font-size: 40px;
 }
 
 @media (min-width : 768px) {
     /* home */
-    .the-museum {
-        display: grid;
-        grid-template-columns: 5fr 4fr;
-        margin: 50px;
-    }
-    
-    .the-museum img {
-        width: 100%;
-        padding: 0;
-    }
-
     .the-museum2 {
         display: flex;
         justify-content: center;
@@ -287,13 +292,6 @@ footer {
     .skeleton1, .skeleton2 {
         display: flex;
         flex-direction: column;
-    }
-
-    /*exhibition*/
-    .exhibition {
-        display: grid;
-        grid-template-columns: 4fr 5fr;
-        margin: 100px;
     }
 
     /*Get Involved*/
@@ -310,12 +308,6 @@ footer {
         padding: 50px;
     }
 
-    .explore {
-        display: grid;
-        grid-template-columns: 4fr 5fr;
-        margin: 100px;
-    }
-    
     /*Visit*/
     .map {
     display: flex;
@@ -361,8 +353,25 @@ footer {
     
 
     /*Home*/
+    .the-museum {
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+        margin: 50px;
+    }
+    
+    .the-museum img {
+        width: 100%;
+        padding: 0;
+    }
     .skeleton1 img, .skeleton2 img {
         width: 500px;
+    }
+
+    /*exhibition*/
+    .exhibition {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        margin: 100px;
     }
     
     /*Get involved*/
@@ -377,6 +386,12 @@ footer {
     /*Explore*/
     .explore-name h1, .explore-name h2 {
         padding: 65px;
+    }
+
+    .explore {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        margin: 100px;
     }
 }
 
